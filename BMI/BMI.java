@@ -5,16 +5,19 @@ public class BMI {
     private double height;
     private String name;
 
-    BMI(){
+    BMI(double weight,double height){
         this.weight = weight;
         this.height = height;
     }
+   BMI(){
+
+   }
 
     public double getWeight(){
         return this.weight;
     }
 
-    void setWeight(double weight){
+    void setWeight(){
         this.weight = weight;
     }
 
@@ -27,14 +30,18 @@ public class BMI {
     }
 
     public double getBMI(){
-        double BMI = 0;
-        BMI = weight/height * height ;
-        return BMI;
+
+        return weight/((height/100) * (height/100)) ;
+
     }
+
+
 
     public String fetch(){
         double BMI = getBMI();
-        if(BMI < 18.5){
+        if(BMI < 16.5){
+            return "servely underweight";
+        }else if(BMI>=16.5 && BMI< 18.5) {
             return "underweight";
         }else if(BMI >= 18.5 && BMI <= 25){
             return "Normal";
