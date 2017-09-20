@@ -28,7 +28,7 @@ public class Guess {
         return answer;
     }
 
-    void setAnswer(){
+    void setAnswer(String answer){
         this.answer = answer;
     }
 }

@@ -111,6 +111,7 @@ public class guessWord {
 
                 System.out.println(pTwoName + "Enter a word: ");
                 word = scanObject.next();
+                System.out.println("you turn ");
 
                 guess = "";
                 for(count = 0; count < word.length(); count++){
