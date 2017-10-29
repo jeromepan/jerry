@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns="http://earth.google.com/kml/2.1">
+
+<Document>
+
+	<name>Mystery Locations</name>
+	<Placemark>
+
+		<name>Location 1</name>
+
+		<Point>
+
+			<coordinates>-121.87,36.610</coordinates>
+
+		</Point>
+
+	</Placemark>
+
+	<Placemark>
+
+		<name>Location 2</name>
+
+		<Point>
+
+			<coordinates>-3.02,16.770</coordinates>
+
+		</Point>
+
+	</Placemark>
+
+	<Placemark>
+
+		<name>Location 3</name>
+
+		<Point>
+
+			<coordinates>34.75,139.760</coordinates>
+
+		</Point>
+
+	</Placemark>
+
+
+</Document>
+
+</kml>
